@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-div {
+  width: 50%;
+  height: 100%;
+}
+
+.text-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+h5 {
+  color: goldenrod;
+}
+
+.david {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.mab {
+  border: none;
+  background-color: goldenrod;
+  color: white;
+  padding: 10px;
+}
+
+.mab:hover {
+  background-color: rgb(247, 235, 235);
+  color: black;
+}
+
+.hm {
+  border: none;
+  background-color: rgb(247, 235, 235);
+  color: black;
+  padding: 10px;
+}
+
+.hm:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.copyright {
+  margin-top: 40px;
+}
